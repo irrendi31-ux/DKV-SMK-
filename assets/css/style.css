@@ -39,6 +39,7 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
   background: var(--bg);
   color: var(--ink);
@@ -46,6 +47,7 @@ body {
   font-size: 0.9688rem; /* 15.5px */
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; }
@@ -70,6 +72,7 @@ a { color: inherit; }
   display: grid; place-items: center;
   font-family: var(--mono); font-size: 0.72rem;
 }
+.brand-logo { width: 32px; height: 32px; border-radius: 9px; flex: none; }
 .brand small { display: block; font-weight: 400; font-size: 0.7rem; color: var(--ink-2); }
 
 .nav-group { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-2); padding: 14px 12px 6px; }
@@ -96,7 +99,9 @@ a { color: inherit; }
 .side-user strong { display: block; font-size: 0.85rem; font-weight: 600; line-height: 1.3; }
 .side-user span { font-size: 0.72rem; color: var(--ink-2); }
 
-main { padding: 32px 44px 72px; max-width: 1280px; width: 100%; margin: 0 auto; }
+main { padding: 32px 44px 72px; max-width: 1280px; width: 100%; margin: 0 auto; min-width: 0; }
+/* anak grid/flex tidak boleh memaksa halaman melebar (fix overflow di HP) */
+.card, .week-card, .list-row .t, .detail-hero > div { min-width: 0; }
 
 /* ---------- Komponen dasar ---------- */
 .card { background: var(--card); border-radius: var(--r-lg); box-shadow: var(--shadow); padding: 24px 26px; }
@@ -344,6 +349,13 @@ details.acc .acc-body ul li::before { content: ""; position: absolute; left: 2px
   .showcase-grid { grid-template-columns: 1fr; }
   .profil-hero { grid-template-columns: 1fr; }
   .card { padding: 20px 18px; }
+  h1.page { font-size: 1.45rem; }
+  .stat .n { font-size: 1.4rem; }
+  .week-card h3 { font-size: 1rem; }
+  .map-row .row-label { width: 88px; font-size: 0.68rem; }
+  .pip { flex: 0 0 38px; min-width: 38px; height: 40px; }
+  .modul-sec p { font-size: 1rem; }
+  .hero-actions { flex-direction: row; flex-wrap: wrap; align-items: flex-start; }
 }
 
 /* ---------- Cetak: lembar pegangan ---------- */

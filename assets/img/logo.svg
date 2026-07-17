@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Logo DKV SMK — huruf D geometris; bowl terbelah dua warna = dua jalur (magenta: Fotografi & Desain, cyan: Videografi) -->
+  <rect width="512" height="512" rx="116" fill="#1d1c1a"/>
+  <!-- batang D -->
+  <rect x="140" y="128" width="58" height="256" fill="#efede9"/>
+  <!-- bowl atas: magenta -->
+  <path d="M198 128 h24 a128 128 0 0 1 128 128 h-152 Z" fill="#c2367f"/>
+  <!-- bowl bawah: cyan -->
+  <path d="M198 256 h152 a128 128 0 0 1 -128 128 h-24 Z" fill="#1a7fad"/>
+</svg>
