@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" font-family="system-ui, sans-serif">
+  <text x="440" y="40" text-anchor="middle" font-size="17" font-weight="700" fill="#1d1c1a">Alur kerja editing — urut, jangan diloncati</text>
+
+  <g text-anchor="middle" font-size="13.5" font-weight="600">
+    <rect x="40" y="80" width="180" height="64" rx="12" fill="#e0f0f7"/>
+    <text x="130" y="106" fill="#1a7fad">1 · SIAPKAN FOLDER</text>
+    <text x="130" y="126" font-weight="400" font-size="12" fill="#6f6c66">sebelum buka Premiere</text>
+
+    <rect x="256" y="80" width="160" height="64" rx="12" fill="#e0f0f7"/>
+    <text x="336" y="106" fill="#1a7fad">2 · IMPORT</text>
+    <text x="336" y="126" font-weight="400" font-size="12" fill="#6f6c66">copy dari kartu dulu</text>
+
+    <rect x="452" y="80" width="180" height="64" rx="12" fill="#e0f0f7"/>
+    <text x="542" y="106" fill="#1a7fad">3 · TONTON &#38; SELEKSI</text>
+    <text x="542" y="126" font-weight="400" font-size="12" fill="#6f6c66">tandai take bagus</text>
+
+    <rect x="668" y="80" width="172" height="64" rx="12" fill="#1a7fad"/>
+    <text x="754" y="106" fill="#fff">4 · SUSUN KASAR</text>
+    <text x="754" y="126" font-size="12" fill="#dceef7">in-out &#8594; timeline</text>
+
+    <rect x="668" y="196" width="172" height="64" rx="12" fill="#1a7fad"/>
+    <text x="754" y="222" fill="#fff">5 · RAPIKAN</text>
+    <text x="754" y="242" font-size="12" fill="#dceef7">trim · ripple · pacing</text>
+
+    <rect x="452" y="196" width="180" height="64" rx="12" fill="#e0f0f7"/>
+    <text x="542" y="222" fill="#1a7fad">6 · AUDIO</text>
+    <text x="542" y="242" font-weight="400" font-size="12" fill="#6f6c66">level · musik · room tone</text>
+
+    <rect x="256" y="196" width="160" height="64" rx="12" fill="#2e7d4f"/>
+    <text x="336" y="222" fill="#fff">7 · EKSPOR</text>
+    <text x="336" y="242" font-size="12" fill="#d9ecd0">H.264 &#8594; tonton ulang!</text>
+  </g>
+
+  <!-- panah -->
+  <g stroke="#1d1c1a" stroke-width="3" fill="none">
+    <path d="M222 112 L250 112" marker-end="url(#ar8)"/>
+    <path d="M418 112 L446 112" marker-end="url(#ar8)"/>
+    <path d="M634 112 L662 112" marker-end="url(#ar8)"/>
+    <path d="M754 146 L754 190" marker-end="url(#ar8)"/>
+    <path d="M666 228 L638 228" marker-end="url(#ar8)"/>
+    <path d="M450 228 L422 228" marker-end="url(#ar8)"/>
+  </g>
+
+  <!-- struktur folder -->
+  <g font-family="monospace" font-size="13.5" fill="#1d1c1a">
+    <rect x="40" y="196" width="180" height="196" rx="12" fill="#fff"/>
+    <text x="58" y="226" font-weight="700">NAMA-PROYEK/</text>
+    <text x="58" y="252">&#160;01-FOOTAGE</text>
+    <text x="58" y="276">&#160;02-AUDIO</text>
+    <text x="58" y="300">&#160;03-GRAFIS</text>
+    <text x="58" y="324">&#160;04-PROJECT</text>
+    <text x="58" y="348">&#160;05-EXPORT</text>
+    <text x="58" y="380" font-family="system-ui" font-size="11.5" fill="#6f6c66">buat SEBELUM mengedit</text>
+  </g>
+
+  <text x="530" y="330" font-size="14.5" font-weight="600" fill="#1d1c1a">Ctrl+S itu refleks, bukan keputusan.</text>
+  <text x="530" y="356" font-size="13" fill="#6f6c66">Jangan pernah mengedit langsung dari kartu memori / flashdisk.</text>
+
+  <defs><marker id="ar8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1d1c1a"/></marker></defs>
+</svg>

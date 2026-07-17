@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" font-family="system-ui, sans-serif">
+  <!-- tiga kotak tahap -->
+  <g>
+    <rect x="40" y="90" width="240" height="180" rx="16" fill="#e0f0f7"/>
+    <text x="160" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#1a7fad">1 · PRA-PRODUKSI</text>
+    <g font-size="13.5" fill="#0d4d6b" text-anchor="middle">
+      <text x="160" y="158">ide &#8594; premis &#8594; naskah</text>
+      <text x="160" y="180">storyboard &#8594; shot list</text>
+      <text x="160" y="202">jadwal · lokasi · izin</text>
+    </g>
+    <text x="160" y="242" text-anchor="middle" font-size="13" font-weight="700" fill="#1a7fad">70% keberhasilan di sini</text>
+
+    <rect x="320" y="90" width="240" height="180" rx="16" fill="#1a7fad"/>
+    <text x="440" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2 · PRODUKSI</text>
+    <g font-size="13.5" fill="#dceef7" text-anchor="middle">
+      <text x="440" y="158">hari syuting:</text>
+      <text x="440" y="180">eksekusi rencana</text>
+      <text x="440" y="202">kamera · audio · lighting</text>
+    </g>
+    <text x="440" y="242" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">termahal untuk diulang</text>
+
+    <rect x="600" y="90" width="240" height="180" rx="16" fill="#e0f0f7"/>
+    <text x="720" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#1a7fad">3 · PASCA-PRODUKSI</text>
+    <g font-size="13.5" fill="#0d4d6b" text-anchor="middle">
+      <text x="720" y="158">editing &#8594; warna</text>
+      <text x="720" y="180">audio &#8594; grafis</text>
+      <text x="720" y="202">ekspor &#8594; arsip</text>
+    </g>
+    <text x="720" y="242" text-anchor="middle" font-size="13" font-weight="700" fill="#1a7fad">"penulisan ulang terakhir"</text>
+  </g>
+
+  <!-- panah -->
+  <path d="M282 180 L316 180" stroke="#1d1c1a" stroke-width="4" marker-end="url(#ar6)"/>
+  <path d="M562 180 L596 180" stroke="#1d1c1a" stroke-width="4" marker-end="url(#ar6)"/>
+
+  <text x="440" y="330" text-anchor="middle" font-size="15" font-weight="600" fill="#1d1c1a">Kegagalan di lokasi syuting hampir selalu adalah kegagalan pra-produksi.</text>
+  <text x="440" y="356" text-anchor="middle" font-size="13" fill="#6f6c66">Editor hebat tidak bisa menambal footage yang tidak pernah direkam.</text>
+
+  <defs><marker id="ar6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1d1c1a"/></marker></defs>
+</svg>

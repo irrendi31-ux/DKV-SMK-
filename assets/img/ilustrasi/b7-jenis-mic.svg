@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" font-family="system-ui, sans-serif">
+  <g text-anchor="middle">
+    <!-- LAVALIER -->
+    <g transform="translate(150,60)">
+      <rect x="-95" y="0" width="190" height="240" rx="16" fill="#fff"/>
+      <!-- orang -->
+      <circle cx="0" cy="52" r="24" fill="#1d1c1a"/>
+      <path d="M0 76 c-30 0 -44 26 -47 62 h94 c-3 -36 -17 -62 -47 -62 Z" fill="#1d1c1a"/>
+      <!-- mic clip -->
+      <circle cx="-14" cy="112" r="7" fill="#c2367f"/>
+      <path d="M-14 119 q-4 30 10 44" fill="none" stroke="#c2367f" stroke-width="2.5"/>
+      <line x1="-14" y1="105" x2="-6" y2="82" stroke="#c2367f" stroke-width="2" stroke-dasharray="4 3"/>
+      <text x="34" y="98" font-size="11.5" fill="#c2367f" font-weight="700">15–20cm</text>
+      <text y="272" font-size="16" font-weight="700" fill="#1d1c1a">LAVALIER</text>
+      <text y="294" font-size="12.5" fill="#6f6c66">jepit di dada — raja wawancara</text>
+    </g>
+
+    <!-- SHOTGUN -->
+    <g transform="translate(440,60)">
+      <rect x="-95" y="0" width="190" height="240" rx="16" fill="#fff"/>
+      <circle cx="0" cy="120" r="22" fill="#1d1c1a"/>
+      <path d="M0 142 c-26 0 -38 22 -41 54 h82 c-3 -32 -15 -54 -41 -54 Z" fill="#1d1c1a"/>
+      <!-- boom dari atas -->
+      <line x1="-70" y1="20" x2="18" y2="58" stroke="#6f6c66" stroke-width="4"/>
+      <rect x="8" y="50" width="14" height="34" rx="7" transform="rotate(24 15 67)" fill="#1a7fad"/>
+      <text x="46" y="42" font-size="11.5" fill="#1a7fad" font-weight="700">di luar frame,</text>
+      <text x="46" y="58" font-size="11.5" fill="#1a7fad" font-weight="700">todong dari atas</text>
+      <text y="272" font-size="16" font-weight="700" fill="#1d1c1a">SHOTGUN</text>
+      <text y="294" font-size="12.5" fill="#6f6c66">terarah — adegan tanpa mic terlihat</text>
+    </g>
+
+    <!-- HP RECORDER -->
+    <g transform="translate(730,60)">
+      <rect x="-95" y="0" width="190" height="240" rx="16" fill="#fff"/>
+      <circle cx="0" cy="52" r="24" fill="#1d1c1a"/>
+      <path d="M0 76 c-30 0 -44 26 -47 62 h94 c-3 -36 -17 -62 -47 -62 Z" fill="#1d1c1a"/>
+      <!-- HP di saku -->
+      <rect x="-26" y="108" width="30" height="52" rx="6" fill="#2e7d4f"/>
+      <circle cx="-11" cy="150" r="4" fill="#fff"/>
+      <text x="42" y="128" font-size="11.5" fill="#2e7d4f" font-weight="700">mode perekam,</text>
+      <text x="42" y="144" font-size="11.5" fill="#2e7d4f" font-weight="700">saku dada</text>
+      <text y="272" font-size="16" font-weight="700" fill="#1d1c1a">HP CADANGAN</text>
+      <text y="294" font-size="12.5" fill="#6f6c66">"lavalier gratis" — sinkron pakai tepukan</text>
+    </g>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="440" y="396" font-size="15" font-weight="600" fill="#1d1c1a">Aturan emas: DEKATKAN MIC KE SUMBER SUARA (15–30cm) — dan selalu monitor pakai earphone.</text>
+    <text x="440" y="422" font-size="13" fill="#6f6c66">Mic bawaan kamera berjarak 3 meter = merekam suara ruangan, bukan suara orang.</text>
+  </g>
+</svg>

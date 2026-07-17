@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" font-family="system-ui, sans-serif">
+  <!-- segitiga -->
+  <path d="M440 100 L150 470 L730 470 Z" fill="none" stroke="#1d1c1a" stroke-width="3"/>
+  <text x="440" y="330" text-anchor="middle" font-size="30" font-weight="700" fill="#1d1c1a">EKSPOSUR</text>
+  <text x="440" y="358" text-anchor="middle" font-size="15" fill="#6f6c66">ubah satu sisi, sisi lain ikut menyesuaikan</text>
+
+  <!-- APERTURE (atas) -->
+  <circle cx="440" cy="100" r="9" fill="#c2367f"/>
+  <text x="440" y="66" text-anchor="middle" font-size="22" font-weight="700" fill="#c2367f">APERTURE</text>
+  <text x="440" y="42" text-anchor="middle" font-size="14" fill="#6f6c66">besar bukaan "keran" lensa</text>
+  <!-- skala aperture -->
+  <g font-size="13" fill="#1d1c1a" text-anchor="middle">
+    <circle cx="255" cy="150" r="26" fill="none" stroke="#c2367f" stroke-width="3"/>
+    <circle cx="255" cy="150" r="17" fill="#c2367f" opacity=".85"/>
+    <text x="255" y="200">f/1.8</text>
+    <text x="255" y="218" fill="#6f6c66">latar blur · cahaya banyak</text>
+    <circle cx="625" cy="150" r="26" fill="none" stroke="#c2367f" stroke-width="3"/>
+    <circle cx="625" cy="150" r="7" fill="#c2367f" opacity=".85"/>
+    <text x="625" y="200">f/16</text>
+    <text x="625" y="218" fill="#6f6c66">tajam semua · cahaya sedikit</text>
+  </g>
+
+  <!-- SHUTTER (kiri bawah) -->
+  <circle cx="150" cy="470" r="9" fill="#1a7fad"/>
+  <text x="150" y="510" text-anchor="middle" font-size="22" font-weight="700" fill="#1a7fad">SHUTTER SPEED</text>
+  <text x="150" y="533" text-anchor="middle" font-size="14" fill="#6f6c66">lama "keran" dibuka</text>
+  <g font-size="13" text-anchor="middle">
+    <text x="150" y="560" fill="#1d1c1a" font-weight="600">1/1000 = beku &#160;·&#160; 1/30 = blur gerak</text>
+    <text x="150" y="580" fill="#6f6c66">handheld: minimal 1/panjang-fokal</text>
+  </g>
+
+  <!-- ISO (kanan bawah) -->
+  <circle cx="730" cy="470" r="9" fill="#d9a800"/>
+  <text x="730" y="510" text-anchor="middle" font-size="22" font-weight="700" fill="#b58900">ISO</text>
+  <text x="730" y="533" text-anchor="middle" font-size="14" fill="#6f6c66">kepekaan sensor</text>
+  <g font-size="13" text-anchor="middle">
+    <text x="730" y="560" fill="#1d1c1a" font-weight="600">100 = bersih &#160;·&#160; 6400 = noise</text>
+    <text x="730" y="580" fill="#6f6c66">naikkan ISO sebagai pilihan terakhir</text>
+  </g>
+
+  <!-- catatan stop -->
+  <g font-size="13" fill="#6f6c66" text-anchor="middle">
+    <text x="440" y="452">1 stop = kelipatan dua jumlah cahaya</text>
+  </g>
+</svg>

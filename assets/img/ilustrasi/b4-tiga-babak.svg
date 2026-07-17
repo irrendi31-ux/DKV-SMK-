@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" font-family="system-ui, sans-serif">
+  <text x="440" y="40" text-anchor="middle" font-size="17" font-weight="700" fill="#1d1c1a">Struktur 3 babak dalam iklan 30 detik</text>
+
+  <!-- bar -->
+  <g>
+    <rect x="80" y="150" width="192" height="70" rx="10" fill="#f3d9e7"/>
+    <rect x="280" y="150" width="360" height="70" rx="10" fill="#c2367f"/>
+    <rect x="648" y="150" width="152" height="70" rx="10" fill="#2e7d4f"/>
+  </g>
+
+  <!-- label babak -->
+  <g text-anchor="middle">
+    <text x="176" y="128" font-size="16" font-weight="700" fill="#1d1c1a">BABAK 1 · SETUP</text>
+    <text x="176" y="192" font-size="14" fill="#7c2d5c">kenalkan tokoh</text>
+    <text x="176" y="210" font-size="14" fill="#7c2d5c">&#38; keinginannya</text>
+
+    <text x="460" y="128" font-size="16" font-weight="700" fill="#1d1c1a">BABAK 2 · KONFRONTASI</text>
+    <text x="460" y="192" font-size="14" fill="#fff">halangan muncul &#38; memburuk —</text>
+    <text x="460" y="210" font-size="14" fill="#fff">bagian terpanjang, alasan penonton bertahan</text>
+
+    <text x="724" y="128" font-size="16" font-weight="700" fill="#1d1c1a">BABAK 3 · RESOLUSI</text>
+    <text x="724" y="192" font-size="14" fill="#fff">terjawab + pesan</text>
+    <text x="724" y="210" font-size="14" fill="#fff">mendarat</text>
+  </g>
+
+  <!-- ticks detik -->
+  <g font-family="monospace" font-size="14" fill="#1d1c1a" text-anchor="middle">
+    <line x1="80" y1="228" x2="80" y2="244" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="80" y="266">0"</text>
+    <line x1="280" y1="228" x2="280" y2="244" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="280" y="266">&#177;8"</text>
+    <line x1="648" y1="228" x2="648" y2="244" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="648" y="266">&#177;23"</text>
+    <line x1="800" y1="228" x2="800" y2="244" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="800" y="266">30"</text>
+  </g>
+
+  <!-- premis -->
+  <rect x="120" y="300" width="640" height="64" rx="12" fill="#fff"/>
+  <text x="440" y="328" text-anchor="middle" font-size="15" font-weight="600" fill="#1d1c1a">PREMIS = (TOKOH) ingin (TUJUAN) tapi (HALANGAN)</text>
+  <text x="440" y="350" text-anchor="middle" font-size="13" fill="#6f6c66">tulis satu kalimat ini dulu — kalau belum menarik, naskah sepanjang apa pun tak menolong</text>
+</svg>

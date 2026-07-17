@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" font-family="system-ui, sans-serif">
+  <defs>
+    <linearGradient id="kelvin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5a623"/>
+      <stop offset="35%" stop-color="#f7d78a"/>
+      <stop offset="60%" stop-color="#fdfbf3"/>
+      <stop offset="100%" stop-color="#9dc4e8"/>
+    </linearGradient>
+  </defs>
+  <text x="440" y="46" text-anchor="middle" font-size="17" font-weight="700" fill="#1d1c1a">Suhu warna (Kelvin) — angka kecil hangat, angka besar dingin</text>
+
+  <rect x="80" y="120" width="720" height="70" rx="14" fill="url(#kelvin)"/>
+
+  <!-- penanda -->
+  <g text-anchor="middle" font-size="14">
+    <line x1="150" y1="190" x2="150" y2="216" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="150" y="240" font-family="monospace" font-weight="700" fill="#1d1c1a">3200K</text>
+    <text x="150" y="262" fill="#6f6c66">bohlam / tungsten</text>
+    <text x="150" y="100" font-size="26">&#128161;</text>
+
+    <line x1="330" y1="190" x2="330" y2="216" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="330" y="240" font-family="monospace" font-weight="700" fill="#1d1c1a">4000K</text>
+    <text x="330" y="262" fill="#6f6c66">lampu neon</text>
+
+    <line x1="540" y1="190" x2="540" y2="216" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="540" y="240" font-family="monospace" font-weight="700" fill="#1d1c1a">5600K</text>
+    <text x="540" y="262" fill="#6f6c66">matahari siang</text>
+    <text x="540" y="100" font-size="26">&#9728;&#65039;</text>
+
+    <line x1="740" y1="190" x2="740" y2="216" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="740" y="240" font-family="monospace" font-weight="700" fill="#1d1c1a">6500K+</text>
+    <text x="740" y="262" fill="#6f6c66">mendung / teduh</text>
+    <text x="740" y="100" font-size="26">&#9729;&#65039;</text>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="440" y="322" font-size="15" font-weight="600" fill="#1d1c1a">Aturan kelas: WB DIKUNCI sebelum merekam, dicek ulang tiap pindah lokasi.</text>
+    <text x="440" y="348" font-size="13.5" fill="#b03a37" font-weight="600">WB auto di video = warna bisa bergeser DI TENGAH shot — hampir tak tertolong di editing.</text>
+  </g>
+</svg>

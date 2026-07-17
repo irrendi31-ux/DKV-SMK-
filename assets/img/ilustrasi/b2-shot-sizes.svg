@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" font-family="system-ui, sans-serif">
+  <defs>
+    <g id="orang">
+      <!-- figur 0..100 x 0..300 -->
+      <circle cx="50" cy="34" r="20" fill="#1d1c1a"/>
+      <circle cx="43" cy="32" r="2.6" fill="#efede9"/>
+      <circle cx="57" cy="32" r="2.6" fill="#efede9"/>
+      <rect x="47" y="54" width="6" height="8" fill="#1d1c1a"/>
+      <path d="M30 62 h40 l6 60 h-8 l-4 32 h-28 l-4 -32 h-8 Z" fill="#1d1c1a"/>
+      <rect x="30" y="64" width="9" height="72" rx="4" fill="#1d1c1a"/>
+      <rect x="61" y="64" width="9" height="72" rx="4" fill="#1d1c1a"/>
+      <rect x="38" y="154" width="10.5" height="130" rx="5" fill="#1d1c1a"/>
+      <rect x="51.5" y="154" width="10.5" height="130" rx="5" fill="#1d1c1a"/>
+      <rect x="35" y="284" width="14" height="8" fill="#1d1c1a"/>
+      <rect x="51" y="284" width="14" height="8" fill="#1d1c1a"/>
+    </g>
+  </defs>
+
+  <g>
+    <!-- 7 frame; tiap frame svg bersarang dgn jendela viewBox berbeda -->
+    <g transform="translate(24,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="-186 -105 320 466" preserveAspectRatio="xMidYMid slice">
+        <line x1="-186" y1="290" x2="320" y2="290" stroke="#c4c1ba" stroke-width="3"/>
+        <use href="#orang"/>
+      </svg>
+    </g>
+    <g transform="translate(146,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="-58 -8 216 320" preserveAspectRatio="xMidYMid slice"><use href="#orang"/></svg>
+    </g>
+    <g transform="translate(268,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="-23 0 146 216" preserveAspectRatio="xMidYMin slice"><use href="#orang"/></svg>
+    </g>
+    <g transform="translate(390,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="-3 -2 106 157" preserveAspectRatio="xMidYMin slice"><use href="#orang"/></svg>
+    </g>
+    <g transform="translate(512,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="12 4 75 111" preserveAspectRatio="xMidYMin slice"><use href="#orang"/></svg>
+    </g>
+    <g transform="translate(634,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="26.5 6 47 70" preserveAspectRatio="xMidYMin slice"><use href="#orang"/></svg>
+    </g>
+    <g transform="translate(756,40)">
+      <rect x="-2" y="-2" width="112" height="164" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <svg x="0" y="0" width="108" height="160" viewBox="36 22.5 19 28" preserveAspectRatio="xMidYMid slice"><use href="#orang"/></svg>
+    </g>
+  </g>
+
+  <!-- label -->
+  <g text-anchor="middle" font-size="16" font-weight="700" fill="#1d1c1a">
+    <text x="78" y="234">ELS</text><text x="200" y="234">LS</text><text x="322" y="234">MLS</text>
+    <text x="444" y="234">MS</text><text x="566" y="234">MCU</text><text x="688" y="234">CU</text><text x="810" y="234">ECU</text>
+  </g>
+  <g text-anchor="middle" font-size="12" fill="#6f6c66">
+    <text x="78" y="254">lokasi &#38; konteks</text><text x="200" y="254">tubuh utuh</text><text x="322" y="254">lutut ke atas</text>
+    <text x="444" y="254">pinggang ke atas</text><text x="566" y="254">dada ke atas</text><text x="688" y="254">wajah &#38; emosi</text><text x="810" y="254">detail ekstrem</text>
+  </g>
+
+  <!-- panah konteks->emosi -->
+  <line x1="78" y1="290" x2="810" y2="290" stroke="#1a7fad" stroke-width="2.5" marker-end="url(#ar3)"/>
+  <text x="120" y="316" font-size="13" fill="#1a7fad" font-weight="600">makin lebar = konteks</text>
+  <text x="768" y="316" text-anchor="end" font-size="13" fill="#1a7fad" font-weight="600">makin dekat = emosi</text>
+  <text x="440" y="360" text-anchor="middle" font-size="14" fill="#6f6c66">aturan variasi: dua shot bersebelahan sebaiknya beda minimal 2 tingkat (MS &#8594; CU, bukan MS &#8594; MS)</text>
+
+  <defs><marker id="ar3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1a7fad"/></marker></defs>
+</svg>

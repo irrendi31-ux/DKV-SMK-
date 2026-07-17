@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" font-family="system-ui, sans-serif">
+  <!-- body kamera -->
+  <rect x="270" y="150" width="330" height="210" rx="20" fill="#1d1c1a"/>
+  <!-- grip -->
+  <rect x="270" y="150" width="70" height="210" rx="20" fill="#2c2b28"/>
+  <!-- viewfinder -->
+  <rect x="392" y="112" width="110" height="46" rx="10" fill="#1d1c1a"/>
+  <rect x="416" y="124" width="60" height="24" rx="5" fill="#55534d"/>
+  <!-- mode dial -->
+  <circle cx="552" cy="136" r="26" fill="#2c2b28" stroke="#6f6c66" stroke-width="3"/>
+  <text x="552" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#efede9">M</text>
+  <!-- shutter button -->
+  <circle cx="306" cy="140" r="12" fill="#c2367f"/>
+  <!-- lensa -->
+  <circle cx="435" cy="255" r="82" fill="#2c2b28"/>
+  <circle cx="435" cy="255" r="58" fill="#1d1c1a" stroke="#6f6c66" stroke-width="4"/>
+  <circle cx="435" cy="255" r="30" fill="#0d4d6b"/>
+  <circle cx="424" cy="243" r="9" fill="#7fc0dd" opacity=".8"/>
+  <!-- layar -->
+  <rect x="536" y="190" width="52" height="120" rx="8" fill="#55534d"/>
+
+  <!-- label -->
+  <g font-size="14.5" font-weight="600" fill="#1d1c1a">
+    <line x1="306" y1="126" x2="204" y2="78" stroke="#c2367f" stroke-width="2"/>
+    <text x="196" y="66" text-anchor="end" fill="#c2367f">Tombol shutter</text>
+
+    <line x1="552" y1="106" x2="660" y2="66" stroke="#6f6c66" stroke-width="2"/>
+    <text x="668" y="60">Mode dial &#8594; M (manual)</text>
+
+    <line x1="500" y1="128" x2="230" y2="128" stroke="#6f6c66" stroke-width="2"/>
+    <text x="222" y="132" text-anchor="end">Jendela bidik + light meter</text>
+
+    <line x1="435" y1="340" x2="435" y2="392" stroke="#6f6c66" stroke-width="2"/>
+    <text x="435" y="412" text-anchor="middle">LENSA — 18-55mm = rentang zoom · f/3.5 = bukaan maksimal</text>
+
+    <line x1="588" y1="250" x2="700" y2="220" stroke="#6f6c66" stroke-width="2"/>
+    <text x="708" y="216">Layar &#38; histogram</text>
+
+    <line x1="300" y1="300" x2="196" y2="330" stroke="#6f6c66" stroke-width="2"/>
+    <text x="188" y="336" text-anchor="end">Grip — tangan kanan;</text>
+    <text x="188" y="356" text-anchor="end" font-weight="400" font-size="13" fill="#6f6c66">telapak kiri menopang lensa dari bawah</text>
+  </g>
+
+  <text x="440" y="452" text-anchor="middle" font-size="14" fill="#6f6c66">di dalam body: SENSOR — "film digital" tempat cahaya menjadi gambar; jangan pernah disentuh</text>
+</svg>

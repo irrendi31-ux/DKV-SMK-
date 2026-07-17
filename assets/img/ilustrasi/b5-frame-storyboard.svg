@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" font-family="system-ui, sans-serif">
+  <text x="440" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#1d1c1a">Satu frame storyboard — gambar boleh jelek, informasi wajib lengkap</text>
+
+  <!-- frame -->
+  <rect x="200" y="70" width="480" height="270" fill="#fff" stroke="#1d1c1a" stroke-width="3"/>
+  <!-- isi gambar stick figure -->
+  <g stroke="#1d1c1a" stroke-width="3" fill="none">
+    <circle cx="360" cy="170" r="22"/>
+    <line x1="360" y1="192" x2="360" y2="256"/>
+    <line x1="360" y1="212" x2="330" y2="240"/>
+    <line x1="360" y1="212" x2="392" y2="238"/>
+    <line x1="360" y1="256" x2="338" y2="300"/>
+    <line x1="360" y1="256" x2="382" y2="300"/>
+    <!-- pintu -->
+    <rect x="520" y="130" width="90" height="180"/>
+    <circle cx="536" cy="224" r="5" fill="#1d1c1a"/>
+  </g>
+  <!-- panah gerak subjek -->
+  <path d="M400 236 L500 226" stroke="#c2367f" stroke-width="4" marker-end="url(#ar9)"/>
+  <text x="446" y="216" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c2367f">arah gerak subjek</text>
+  <!-- panah gerak kamera -->
+  <path d="M236 322 L316 322" stroke="#1a7fad" stroke-width="4" marker-end="url(#arA)"/>
+  <path d="M244 330 L324 330" stroke="#1a7fad" stroke-width="4" marker-end="url(#arA)"/>
+  <text x="238" y="308" font-size="12.5" font-weight="700" fill="#1a7fad">panah ganda = kamera ikut (follow)</text>
+
+  <!-- nomor shot & ukuran -->
+  <rect x="200" y="70" width="64" height="34" fill="#1d1c1a"/>
+  <text x="232" y="93" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">#5</text>
+  <rect x="616" y="70" width="64" height="34" fill="#c2367f"/>
+  <text x="648" y="93" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">MLS</text>
+
+  <!-- catatan audio -->
+  <rect x="200" y="352" width="480" height="52" rx="8" fill="#f1efe9"/>
+  <text x="216" y="374" font-size="12.5" font-weight="700" fill="#1d1c1a">&#127925; AUDIO:</text>
+  <text x="216" y="394" font-size="12.5" fill="#6f6c66" font-family="monospace">langkah kaki terburu &#183; SFX bel sekolah &#183; tanpa dialog</text>
+
+  <!-- label sisi -->
+  <g font-size="13" fill="#6f6c66">
+    <text x="180" y="90" text-anchor="end">nomor shot &#8594;</text>
+    <text x="700" y="90">&#8592; ukuran shot (kosakata P2)</text>
+    <text x="700" y="380">&#8592; catatan audio</text>
+  </g>
+
+  <text x="440" y="440" text-anchor="middle" font-size="14" fill="#6f6c66">satu frame = satu shot &#183; cerita 30 detik &#8776; 8–15 frame &#183; trik cepat: foto peragaan teman lalu jiplak tipis</text>
+
+  <defs>
+    <marker id="ar9" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c2367f"/></marker>
+    <marker id="arA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1a7fad"/></marker>
+  </defs>
+</svg>

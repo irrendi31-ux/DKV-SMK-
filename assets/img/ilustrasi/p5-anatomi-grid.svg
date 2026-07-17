@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" font-family="system-ui, sans-serif">
+  <!-- halaman -->
+  <rect x="250" y="40" width="380" height="440" fill="#fff" stroke="#1d1c1a" stroke-width="3"/>
+  <!-- area margin (band luar) -->
+  <path d="M250 40 h380 v440 h-380 Z M290 90 h300 v340 h-300 Z" fill="#f3e0eb" fill-rule="evenodd"/>
+  <!-- kolom -->
+  <g fill="#dceaf2">
+    <rect x="290" y="90" width="88" height="340"/>
+    <rect x="396" y="90" width="88" height="340"/>
+    <rect x="502" y="90" width="88" height="340"/>
+  </g>
+  <!-- garis kolom -->
+  <g stroke="#1a7fad" stroke-width="1.5" stroke-dasharray="5 5" opacity=".6">
+    <line x1="290" y1="90" x2="290" y2="430"/><line x1="378" y1="90" x2="378" y2="430"/>
+    <line x1="396" y1="90" x2="396" y2="430"/><line x1="484" y1="90" x2="484" y2="430"/>
+    <line x1="502" y1="90" x2="502" y2="430"/><line x1="590" y1="90" x2="590" y2="430"/>
+  </g>
+
+  <!-- label margin -->
+  <path d="M180 65 L262 65" stroke="#c2367f" stroke-width="2" marker-end="url(#ar2)"/>
+  <text x="60" y="70" font-size="16" font-weight="700" fill="#c2367f">MARGIN</text>
+  <text x="60" y="90" font-size="12.5" fill="#6f6c66">bingkai kosong di tepi;</text>
+  <text x="60" y="106" font-size="12.5" fill="#6f6c66">konten jangan menempel tepi</text>
+
+  <!-- label kolom -->
+  <path d="M700 260 L560 260" stroke="#1a7fad" stroke-width="2" marker-end="url(#ar2b)"/>
+  <text x="712" y="255" font-size="16" font-weight="700" fill="#1a7fad">KOLOM</text>
+  <text x="712" y="275" font-size="12.5" fill="#6f6c66">pembagi vertikal area isi;</text>
+  <text x="712" y="291" font-size="12.5" fill="#6f6c66">poster cukup 2–3 kolom</text>
+
+  <!-- label gutter -->
+  <path d="M700 120 L390 120" stroke="#1d1c1a" stroke-width="2" marker-end="url(#ar2c)"/>
+  <text x="712" y="115" font-size="16" font-weight="700" fill="#1d1c1a">GUTTER</text>
+  <text x="712" y="135" font-size="12.5" fill="#6f6c66">jarak antar kolom</text>
+
+  <text x="440" y="508" text-anchor="middle" font-size="14" fill="#6f6c66">pilih grid SEBELUM mendesain, lalu patuhi — melanggar boleh asal sadar &#38; beralasan</text>
+
+  <defs>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c2367f"/></marker>
+    <marker id="ar2b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1a7fad"/></marker>
+    <marker id="ar2c" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1d1c1a"/></marker>
+  </defs>
+</svg>

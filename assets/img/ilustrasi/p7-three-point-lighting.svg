@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" font-family="system-ui, sans-serif">
+  <text x="440" y="36" text-anchor="middle" font-size="16" fill="#6f6c66">dilihat dari atas</text>
+
+  <!-- subjek -->
+  <circle cx="440" cy="270" r="34" fill="#1d1c1a"/>
+  <text x="440" y="330" text-anchor="middle" font-size="15" font-weight="600" fill="#1d1c1a">SUBJEK</text>
+
+  <!-- kamera (bawah) -->
+  <rect x="410" y="452" width="60" height="40" rx="6" fill="none" stroke="#1d1c1a" stroke-width="3"/>
+  <path d="M430 452 L440 434 L450 452 Z" fill="#1d1c1a"/>
+  <text x="440" y="520" text-anchor="middle" font-size="15" font-weight="600" fill="#1d1c1a">KAMERA</text>
+  <line x1="440" y1="430" x2="440" y2="312" stroke="#b9b6af" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- KEY light: 45 derajat kiri-depan -->
+  <g>
+    <circle cx="220" cy="120" r="34" fill="#d9a800"/>
+    <path d="M248 148 L406 246" stroke="#d9a800" stroke-width="5" marker-end="url(#arw)"/>
+    <text x="220" y="76" text-anchor="middle" font-size="18" font-weight="700" fill="#b58900">KEY</text>
+    <text x="220" y="180" text-anchor="middle" font-size="13" fill="#6f6c66">paling terang · 45&#176;</text>
+  </g>
+
+  <!-- FILL: sisi lawan, lebih redup -->
+  <g>
+    <circle cx="665" cy="150" r="24" fill="#d9a800" opacity=".45"/>
+    <path d="M645 170 L474 252" stroke="#d9a800" stroke-width="4" opacity=".5" marker-end="url(#arw)"/>
+    <text x="665" y="106" text-anchor="middle" font-size="18" font-weight="700" fill="#b58900" opacity=".75">FILL</text>
+    <text x="665" y="206" text-anchor="middle" font-size="13" fill="#6f6c66">setengah key atau kurang</text>
+    <text x="665" y="224" text-anchor="middle" font-size="13" fill="#6f6c66">boleh reflektor/styrofoam</text>
+  </g>
+
+  <!-- RIM: dari belakang-atas -->
+  <g>
+    <circle cx="560" cy="52" r="20" fill="#1a7fad"/>
+    <path d="M548 68 L462 244" stroke="#1a7fad" stroke-width="4" marker-end="url(#arw)"/>
+    <text x="612" y="46" font-size="18" font-weight="700" fill="#1a7fad">RIM / BACK</text>
+    <text x="612" y="66" font-size="13" fill="#6f6c66">garis cahaya pemisah dari latar</text>
+  </g>
+
+  <!-- rasio -->
+  <g font-size="14" fill="#1d1c1a">
+    <text x="60" y="420" font-weight="600">Rasio key : fill = mood</text>
+    <text x="60" y="444" fill="#6f6c66">2:1 lembut &#38; komersial</text>
+    <text x="60" y="464" fill="#6f6c66">8:1 dramatis (low-key)</text>
+  </g>
+  <g font-size="14" fill="#6f6c66">
+    <text x="820" y="420" text-anchor="end" font-weight="600" fill="#1d1c1a">Urutan setup:</text>
+    <text x="820" y="444" text-anchor="end">key dulu &#8594; tambah fill</text>
+    <text x="820" y="464" text-anchor="end">&#8594; terakhir rim</text>
+  </g>
+
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="context-stroke"/>
+    </marker>
+  </defs>
+</svg>

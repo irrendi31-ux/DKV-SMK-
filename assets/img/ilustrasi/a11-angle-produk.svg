@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" font-family="system-ui, sans-serif">
+  <defs>
+    <g id="botol">
+      <rect x="-22" y="-8" width="44" height="86" rx="10" fill="#c2367f"/>
+      <rect x="-10" y="-26" width="20" height="20" rx="4" fill="#7c2d5c"/>
+      <rect x="-14" y="16" width="28" height="34" rx="4" fill="#fff" opacity=".85"/>
+    </g>
+  </defs>
+  <g text-anchor="middle">
+    <!-- EYE LEVEL -->
+    <g transform="translate(150,60)">
+      <rect x="-96" y="0" width="192" height="220" rx="16" fill="#fff"/>
+      <line x1="-76" y1="166" x2="76" y2="166" stroke="#c4c1ba" stroke-width="3"/>
+      <g transform="translate(0,86)"><use href="#botol"/></g>
+      <g transform="translate(-64,86)">
+        <rect x="-14" y="20" width="28" height="20" rx="5" fill="#1d1c1a"/>
+        <path d="M14 24 L26 18 L26 42 L14 36 Z" fill="#1d1c1a"/>
+      </g>
+      <text y="250" font-size="15" font-weight="700" fill="#1d1c1a">EYE LEVEL (0&#176;)</text>
+      <text y="272" font-size="12" fill="#6f6c66">gagah &#183; formal &#183; etalase</text>
+    </g>
+    <!-- 45 derajat -->
+    <g transform="translate(440,60)">
+      <rect x="-96" y="0" width="192" height="220" rx="16" fill="#fff"/>
+      <line x1="-76" y1="166" x2="76" y2="166" stroke="#c4c1ba" stroke-width="3"/>
+      <g transform="translate(6,92) scale(1 .92)"><use href="#botol"/></g>
+      <ellipse cx="6" cy="152" rx="30" ry="7" fill="#1d1c1a" opacity=".14"/>
+      <g transform="translate(-62,30) rotate(32)">
+        <rect x="-14" y="0" width="28" height="20" rx="5" fill="#1d1c1a"/>
+        <path d="M14 4 L26 -2 L26 22 L14 16 Z" fill="#1d1c1a"/>
+      </g>
+      <text x="-58" y="16" font-size="11.5" font-weight="700" fill="#c2367f">45&#176;</text>
+      <text y="250" font-size="15" font-weight="700" fill="#1d1c1a">45&#176; — SUDUT BELANJA</text>
+      <text y="272" font-size="12" fill="#6f6c66">muka + atas terlihat &#183; default katalog</text>
+    </g>
+    <!-- TOP DOWN -->
+    <g transform="translate(730,60)">
+      <rect x="-96" y="0" width="192" height="220" rx="16" fill="#fff"/>
+      <!-- flat lay dari atas -->
+      <circle cx="0" cy="112" r="30" fill="#c2367f"/>
+      <circle cx="0" cy="112" r="12" fill="#7c2d5c"/>
+      <circle cx="-52" cy="80" r="10" fill="#d9a800"/>
+      <circle cx="46" cy="66" r="8" fill="#1a7fad"/>
+      <path d="M40 150 q16 -8 26 6" stroke="#2e7d4f" stroke-width="5" fill="none"/>
+      <g transform="translate(0,20)">
+        <rect x="-14" y="-10" width="28" height="20" rx="5" fill="#1d1c1a"/>
+        <path d="M-6 10 L0 22 L6 10 Z" fill="#1d1c1a"/>
+      </g>
+      <text y="250" font-size="15" font-weight="700" fill="#1d1c1a">TOP-DOWN (90&#176;)</text>
+      <text y="272" font-size="12" fill="#6f6c66">flat lay &#183; makanan &#183; komposisi nirmana</text>
+    </g>
+  </g>
+  <text x="440" y="368" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1d1c1a">+ DETAIL/MAKRO untuk tekstur &#38; label — pembangun rasa premium.</text>
+  <text x="440" y="394" text-anchor="middle" font-size="13.5" fill="#6f6c66">Set lengkap marketplace/feed: hero 45&#176; + eye level + detail + flat lay/lifestyle — cahaya &#38; edit konsisten.</text>
+</svg>

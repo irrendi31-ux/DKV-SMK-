@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" font-family="system-ui, sans-serif">
+  <!-- J-CUT -->
+  <text x="80" y="52" font-size="18" font-weight="700" fill="#1d1c1a">J-CUT — suara datang duluan</text>
+  <g font-family="monospace" font-size="14">
+    <text x="80" y="102" fill="#6f6c66">V</text>
+    <rect x="110" y="80" width="330" height="34" rx="6" fill="#c4c1ba"/>
+    <text x="275" y="102" text-anchor="middle" fill="#1d1c1a">VIDEO — KLIP A</text>
+    <rect x="440" y="80" width="330" height="34" rx="6" fill="#1a7fad"/>
+    <text x="605" y="102" text-anchor="middle" fill="#fff">VIDEO — KLIP B</text>
+
+    <text x="80" y="152" fill="#6f6c66">A</text>
+    <rect x="110" y="130" width="250" height="34" rx="6" fill="#c4c1ba"/>
+    <text x="235" y="152" text-anchor="middle" fill="#1d1c1a">AUDIO A</text>
+    <rect x="360" y="130" width="410" height="34" rx="6" fill="#7fc0dd"/>
+    <text x="565" y="152" text-anchor="middle" fill="#0d4d6b">AUDIO B — mulai lebih awal</text>
+  </g>
+  <line x1="440" y1="66" x2="440" y2="176" stroke="#1d1c1a" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M360 176 h80 v-46" fill="none" stroke="#c2367f" stroke-width="3"/>
+  <text x="352" y="200" font-size="13" fill="#c2367f" font-weight="600">bentuk huruf "J"</text>
+  <text x="500" y="212" font-size="13" fill="#6f6c66">contoh: suara bel terdengar dulu &#8594; baru gambar gerbang sekolah</text>
+
+  <!-- L-CUT -->
+  <text x="80" y="292" font-size="18" font-weight="700" fill="#1d1c1a">L-CUT — suara tertinggal</text>
+  <g font-family="monospace" font-size="14">
+    <text x="80" y="342" fill="#6f6c66">V</text>
+    <rect x="110" y="320" width="330" height="34" rx="6" fill="#c4c1ba"/>
+    <text x="275" y="342" text-anchor="middle" fill="#1d1c1a">VIDEO — KLIP A</text>
+    <rect x="440" y="320" width="330" height="34" rx="6" fill="#1a7fad"/>
+    <text x="605" y="342" text-anchor="middle" fill="#fff">VIDEO — KLIP B (reaksi pendengar)</text>
+
+    <text x="80" y="392" fill="#6f6c66">A</text>
+    <rect x="110" y="370" width="410" height="34" rx="6" fill="#e8b9d2"/>
+    <text x="315" y="392" text-anchor="middle" fill="#7c2d5c">AUDIO A — masih berjalan</text>
+    <rect x="520" y="370" width="250" height="34" rx="6" fill="#c4c1ba"/>
+    <text x="645" y="392" text-anchor="middle" fill="#1d1c1a">AUDIO B</text>
+  </g>
+  <line x1="440" y1="306" x2="440" y2="416" stroke="#1d1c1a" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M440 306 v66 h80" fill="none" stroke="#c2367f" stroke-width="3"/>
+  <text x="536" y="360" font-size="13" fill="#c2367f" font-weight="600">bentuk huruf "L"</text>
+
+  <text x="440" y="466" text-anchor="middle" font-size="14" fill="#6f6c66">caranya di Premiere: klik kanan klip &#8594; Unlink &#8594; trim audionya saja melewati titik potong video</text>
+</svg>

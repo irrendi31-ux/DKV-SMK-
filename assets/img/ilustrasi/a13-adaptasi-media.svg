@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" font-family="system-ui, sans-serif">
+  <text x="440" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1d1c1a">Satu konsep, tiga format — identitas dikunci, susunan menyesuaikan</text>
+
+  <g text-anchor="middle">
+    <!-- FEED 1:1 -->
+    <g transform="translate(150,70)">
+      <rect x="-85" y="0" width="170" height="170" rx="10" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <circle cx="0" cy="62" r="34" fill="#c2367f"/>
+      <rect x="-56" y="112" width="112" height="13" rx="6" fill="#1d1c1a"/>
+      <rect x="-40" y="134" width="80" height="8" rx="4" fill="#c4c1ba"/>
+      <text y="200" font-size="15" font-weight="700" fill="#1d1c1a">FEED 1:1</text>
+      <text y="221" font-size="12" fill="#6f6c66">1080&#215;1080 &#183; info cukup lengkap</text>
+      <text y="238" font-size="12" fill="#6f6c66">dilihat dekat sambil scroll</text>
+    </g>
+
+    <!-- STORY 9:16 -->
+    <g transform="translate(440,70)">
+      <rect x="-56" y="0" width="112" height="200" rx="10" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <rect x="-56" y="0" width="112" height="26" fill="#f6dddd" opacity=".8"/>
+      <rect x="-56" y="174" width="112" height="26" fill="#f6dddd" opacity=".8"/>
+      <circle cx="0" cy="86" r="30" fill="#c2367f"/>
+      <rect x="-38" y="128" width="76" height="11" rx="5" fill="#1d1c1a"/>
+      <text y="232" font-size="15" font-weight="700" fill="#1d1c1a">STORY 9:16</text>
+      <text y="253" font-size="12" fill="#6f6c66">1080&#215;1920 &#183; elemen besar</text>
+      <text y="270" font-size="12" fill="#b03a37">area merah = tertutup UI, jauhi</text>
+    </g>
+
+    <!-- BANNER -->
+    <g transform="translate(700,70)">
+      <rect x="-130" y="55" width="260" height="86" rx="10" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/>
+      <circle cx="-88" cy="98" r="26" fill="#c2367f"/>
+      <rect x="-48" y="82" width="140" height="15" rx="7" fill="#1d1c1a"/>
+      <rect x="-48" y="106" width="90" height="9" rx="4" fill="#c4c1ba"/>
+      <text y="232" font-size="15" font-weight="700" fill="#1d1c1a">BANNER / SPANDUK</text>
+      <text y="253" font-size="12" fill="#6f6c66">teks minimal &#38; raksasa</text>
+      <text y="270" font-size="12" fill="#6f6c66">uji baca dari 10 meter</text>
+    </g>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="440" y="368" font-size="14.5" font-weight="600" fill="#1d1c1a">SAMA di semua format: logo &#183; palet &#183; typeface &#183; gaya foto. BERUBAH: hierarki, jumlah teks, komposisi.</text>
+    <text x="440" y="396" font-size="13.5" fill="#6f6c66">Mulai dari format tersulit (banner) — menyederhanakan lebih mudah daripada meramaikan.</text>
+    <text x="440" y="424" font-size="13.5" fill="#b03a37" font-weight="600">Copy-paste lalu ditarik-tarik = cara mengenali desainer amatir dari jarak satu kilometer.</text>
+  </g>
+</svg>

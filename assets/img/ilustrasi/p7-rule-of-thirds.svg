@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" font-family="system-ui, sans-serif">
+  <!-- frame -->
+  <rect x="80" y="60" width="720" height="405" fill="#fff" stroke="#1d1c1a" stroke-width="3"/>
+  <!-- horizon di sepertiga bawah -->
+  <rect x="80" y="330" width="720" height="135" fill="#e6e3dd"/>
+  <!-- grid -->
+  <g stroke="#c2367f" stroke-width="2" stroke-dasharray="8 6" opacity=".8">
+    <line x1="320" y1="60" x2="320" y2="465"/>
+    <line x1="560" y1="60" x2="560" y2="465"/>
+    <line x1="80" y1="195" x2="800" y2="195"/>
+    <line x1="80" y1="330" x2="800" y2="330"/>
+  </g>
+  <!-- titik persimpangan -->
+  <g fill="#c2367f">
+    <circle cx="320" cy="195" r="8" opacity=".45"/>
+    <circle cx="560" cy="195" r="8"/>
+    <circle cx="320" cy="330" r="8" opacity=".45"/>
+    <circle cx="560" cy="330" r="8" opacity=".45"/>
+  </g>
+  <!-- subjek di persimpangan kanan-atas -->
+  <circle cx="560" cy="172" r="26" fill="#1d1c1a"/>
+  <path d="M560 198 c-24 0 -34 22 -36 44 h72 c-2 -22 -12 -44 -36 -44 Z" fill="#1d1c1a"/>
+  <text x="620" y="150" font-size="15" font-weight="600" fill="#1d1c1a">subjek di persimpangan garis,</text>
+  <text x="620" y="170" font-size="15" font-weight="600" fill="#1d1c1a">bukan selalu di tengah</text>
+  <text x="96" y="356" font-size="14" fill="#6f6c66">horizon diletakkan di garis sepertiga bawah</text>
+  <text x="440" y="500" text-anchor="middle" font-size="14" fill="#6f6c66">aktifkan grid 3&#215;3 di kamera/HP — biasakan melihat empat titik kuat ini</text>
+</svg>

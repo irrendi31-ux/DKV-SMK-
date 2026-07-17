@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" font-family="system-ui, sans-serif">
+  <!-- garis bantu -->
+  <g stroke="#c2367f" stroke-width="2">
+    <line x1="90" y1="120" x2="640" y2="120" stroke-dasharray="7 5"/>
+    <line x1="90" y1="190" x2="640" y2="190" stroke-dasharray="7 5"/>
+    <line x1="90" y1="320" x2="640" y2="320"/>
+    <line x1="90" y1="382" x2="640" y2="382" stroke-dasharray="7 5"/>
+  </g>
+  <!-- huruf contoh -->
+  <text x="120" y="320" font-size="200" font-weight="600" fill="#1d1c1a" font-family="Georgia, serif">Axpb</text>
+
+  <!-- label garis -->
+  <g font-size="15" font-weight="600">
+    <text x="652" y="126" fill="#c2367f">ascender line</text>
+    <text x="652" y="196" fill="#c2367f">x-height</text>
+    <text x="652" y="326" fill="#1d1c1a">BASELINE</text>
+    <text x="652" y="388" fill="#c2367f">descender line</text>
+  </g>
+  <g font-size="13" fill="#6f6c66">
+    <text x="652" y="146">tangkai b, d, k mentok di sini</text>
+    <text x="652" y="216">tinggi huruf kecil tanpa tangkai</text>
+    <text x="652" y="346">tempat semua huruf "berdiri"</text>
+    <text x="652" y="408">ekor g, j, p turun ke sini</text>
+  </g>
+
+  <!-- counter -->
+  <circle cx="561" cy="253" r="12" fill="none" stroke="#1a7fad" stroke-width="3"/>
+  <line x1="561" y1="241" x2="561" y2="196" stroke="#1a7fad" stroke-width="2"/>
+  <text x="561" y="182" text-anchor="middle" font-size="15" font-weight="600" fill="#1a7fad">counter</text>
+
+  <text x="440" y="442" text-anchor="middle" font-size="14" fill="#6f6c66">x-height besar &#8594; terasa lebih mudah dibaca di ukuran kecil</text>
+</svg>

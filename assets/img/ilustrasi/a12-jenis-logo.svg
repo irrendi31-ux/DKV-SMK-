@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" font-family="system-ui, sans-serif">
+  <g text-anchor="middle">
+    <!-- WORDMARK -->
+    <rect x="40" y="40" width="250" height="130" rx="14" fill="#fff"/>
+    <text x="165" y="112" font-size="34" font-weight="800" letter-spacing="-1" fill="#1d1c1a">kopiku</text>
+    <text x="165" y="196" font-size="15" font-weight="700" fill="#1d1c1a">WORDMARK</text>
+    <text x="165" y="216" font-size="12" fill="#6f6c66">nama lengkap — nama pendek &#38; khas</text>
+
+    <!-- LETTERMARK -->
+    <rect x="315" y="40" width="250" height="130" rx="14" fill="#fff"/>
+    <text x="440" y="118" font-size="52" font-weight="800" fill="#c2367f">KJ</text>
+    <text x="440" y="196" font-size="15" font-weight="700" fill="#1d1c1a">LETTERMARK</text>
+    <text x="440" y="216" font-size="12" fill="#6f6c66">inisial — untuk nama panjang</text>
+
+    <!-- PICTORIAL -->
+    <rect x="590" y="40" width="250" height="130" rx="14" fill="#fff"/>
+    <path d="M715 70 c-20 0 -34 14 -34 32 c0 24 34 44 34 44 c0 0 34 -20 34 -44 c0 -18 -14 -32 -34 -32 Z" fill="#1a7fad"/>
+    <text x="715" y="196" font-size="15" font-weight="700" fill="#1d1c1a">PICTORIAL</text>
+    <text x="715" y="216" font-size="12" fill="#6f6c66">gambar objek nyata — tanpa teks</text>
+
+    <!-- ABSTRAK -->
+    <rect x="40" y="252" width="250" height="130" rx="14" fill="#fff"/>
+    <path d="M130 350 q20 -60 44 -28 q22 30 40 -22" stroke="#c2367f" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <text x="165" y="408" font-size="15" font-weight="700" fill="#1d1c1a">ABSTRAK</text>
+    <text x="165" y="428" font-size="12" fill="#6f6c66">bentuk non-objek — butuh pengulangan</text>
+
+    <!-- MASKOT -->
+    <rect x="315" y="252" width="250" height="130" rx="14" fill="#fff"/>
+    <circle cx="440" cy="310" r="30" fill="#d9a800"/>
+    <circle cx="429" cy="304" r="4.5" fill="#1d1c1a"/>
+    <circle cx="451" cy="304" r="4.5" fill="#1d1c1a"/>
+    <path d="M428 322 q12 10 24 0" stroke="#1d1c1a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <text x="440" y="408" font-size="15" font-weight="700" fill="#1d1c1a">MASKOT</text>
+    <text x="440" y="428" font-size="12" fill="#6f6c66">karakter — ramah, cocok F&#38;B</text>
+
+    <!-- KOMBINASI -->
+    <rect x="590" y="252" width="250" height="130" rx="14" fill="#fff"/>
+    <circle cx="672" cy="316" r="24" fill="#2e7d4f"/>
+    <path d="M662 316 l8 8 l14 -16" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <text x="756" y="324" font-size="24" font-weight="800" fill="#1d1c1a">segar</text>
+    <text x="715" y="408" font-size="15" font-weight="700" fill="#1d1c1a">KOMBINASI</text>
+    <text x="715" y="428" font-size="12" fill="#6f6c66">simbol + teks — paling aman untuk tugas ini</text>
+  </g>
+</svg>

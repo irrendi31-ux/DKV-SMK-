@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" font-family="system-ui, sans-serif">
+  <text x="440" y="34" text-anchor="middle" font-size="16" fill="#6f6c66">dilihat dari atas — adegan dialog dua orang</text>
+
+  <!-- zona terlarang (atas) -->
+  <path d="M110 240 A 340 340 0 0 1 770 240 L 770 240 Z" fill="#f6dddd" opacity=".55"/>
+  <text x="440" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#b03a37">ZONA TERLARANG — melompat garis membalik arah pandang</text>
+
+  <!-- zona aman (bawah) -->
+  <path d="M110 240 A 340 340 0 0 0 770 240 Z" fill="#e2f2e8" opacity=".6"/>
+  <text x="440" y="500" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d4f">ZONA AMAN — semua kamera tinggal di satu sisi garis</text>
+
+  <!-- garis imajiner -->
+  <line x1="60" y1="240" x2="820" y2="240" stroke="#1d1c1a" stroke-width="3" stroke-dasharray="12 8"/>
+  <text x="822" y="222" text-anchor="end" font-size="13" fill="#1d1c1a" font-weight="600">garis imajiner (axis)</text>
+
+  <!-- tokoh A dan B -->
+  <circle cx="330" cy="240" r="30" fill="#c2367f"/>
+  <text x="330" y="247" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">A</text>
+  <circle cx="550" cy="240" r="30" fill="#1a7fad"/>
+  <text x="550" y="247" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">B</text>
+  <line x1="366" y1="240" x2="508" y2="240" stroke="#6f6c66" stroke-width="2" marker-end="url(#ar4)" marker-start="url(#ar4s)"/>
+
+  <!-- kamera aman -->
+  <g>
+    <g transform="translate(200,388)">
+      <rect x="-20" y="0" width="40" height="26" rx="5" fill="#2e7d4f"/>
+      <path d="M-8 0 L0 -12 L8 0 Z" fill="#2e7d4f"/>
+      <text x="0" y="48" text-anchor="middle" font-size="13" fill="#2e7d4f" font-weight="700">KAM 1 ✓</text>
+    </g>
+    <g transform="translate(440,420)">
+      <rect x="-20" y="0" width="40" height="26" rx="5" fill="#2e7d4f"/>
+      <path d="M-8 0 L0 -12 L8 0 Z" fill="#2e7d4f"/>
+      <text x="0" y="48" text-anchor="middle" font-size="13" fill="#2e7d4f" font-weight="700">KAM 2 ✓</text>
+    </g>
+    <g transform="translate(680,388)">
+      <rect x="-20" y="0" width="40" height="26" rx="5" fill="#2e7d4f"/>
+      <path d="M-8 0 L0 -12 L8 0 Z" fill="#2e7d4f"/>
+      <text x="0" y="48" text-anchor="middle" font-size="13" fill="#2e7d4f" font-weight="700">KAM 3 ✓</text>
+    </g>
+  </g>
+
+  <!-- kamera salah -->
+  <g transform="translate(440,120)">
+    <rect x="-20" y="0" width="40" height="26" rx="5" fill="#b03a37"/>
+    <path d="M-8 26 L0 38 L8 26 Z" fill="#b03a37"/>
+    <line x1="-30" y1="-10" x2="30" y2="36" stroke="#b03a37" stroke-width="5"/>
+    <line x1="30" y1="-10" x2="-30" y2="36" stroke="#b03a37" stroke-width="5"/>
+    <text x="0" y="-20" text-anchor="middle" font-size="13" fill="#b03a37" font-weight="700">✗ A &#38; B mendadak bertukar posisi di layar</text>
+  </g>
+
+  <defs>
+    <marker id="ar4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#6f6c66"/></marker>
+    <marker id="ar4s" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#6f6c66"/></marker>
+  </defs>
+</svg>
